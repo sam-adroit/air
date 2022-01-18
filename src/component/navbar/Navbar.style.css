@@ -1,0 +1,16 @@
+.menu{
+    position: relative;
+}
+.menuList{
+    display: none;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    list-style: none;
+    background-color: azure;
+    z-index: 1;
+}
+
+.displayMenu{
+    display: block;
+}
