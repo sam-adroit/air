@@ -1,0 +1,12 @@
+.footer{
+    margin-top: 3em;
+}
+
+.footervision, .footerContact, .footerLinks, .socialMedia{
+    margin: 1.5em 0;
+}
+
+.footervision img{
+    max-width: 100%;
+    margin-bottom: 1.5em;
+}

@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import Logo from '../../assets/logo.png';
 import eee from '../../assets/eee-logo.jpg';
 import oau from '../../assets/oau-logo.png';
-import { FaBars, FaTimes, FaAngleDown } from "react-icons/fa";
+import { FaBars, FaTimes, FaAngleDown, FaAngleUp } from "react-icons/fa";
 import "./Navbar.style.css"
 
 const Navbar = () => {
@@ -11,10 +11,10 @@ const Navbar = () => {
     const [peopleMenu, setPeopleMenu] = useState(true);
     const [researchMenu, setResearchMenu] = useState(true);
     return (
-        <nav>
+        <nav className='container nav'>
             <div className="topNav">
                 <div className="airLogo">
-                <img src={Logo} alt="" />
+                <img src={Logo} alt="Artifial Intelligence and RObotic Lab logo" />
                 </div>
                 {/* FaAlignJustify FaTimes*/}
                 <div className="menu" >
@@ -26,14 +26,14 @@ const Navbar = () => {
                 <ul className={menuIcon ? `menuList`: `menuList displayMenu`}>
                     <li className="menuItems">Home</li>
                     <li className="menuItems">News</li>
-                    <li className="menuItems dropdown" onClick={() => setAboutMenu(!aboutMenu)}>About {<FaAngleDown />}
+                    <li className="menuItems dropdown" onClick={() => setAboutMenu(!aboutMenu)}>About {aboutMenu ? <FaAngleDown className='iconStyle' />: <FaAngleUp className='iconStyle' />}
                         <ul className={aboutMenu ? `dropdownMenu hideMenu`: `dropdownMenu`}>
                             <li className="dropdownItem">Mission Statement</li>
                             <li className="dropdownItem">Research Programs</li>
                             <li className="dropdownItem">A2IR2 Seminars Series</li>
                         </ul>
                     </li>
-                    <li className="menuItems dropdown" onClick={() => setPeopleMenu(!peopleMenu)}>People {<FaAngleDown />}
+                    <li className="menuItems dropdown" onClick={() => setPeopleMenu(!peopleMenu)}>People {peopleMenu ? <FaAngleDown className='iconStyle'/>: <FaAngleUp className='iconStyle' />}
                         <ul className={peopleMenu ? `dropdownMenu hideMenu`: `dropdownMenu`}>
                             <li className="dropdownItem">Principal Investigators</li>
                             <li className="dropdownItem">Researchers</li>
@@ -43,7 +43,7 @@ const Navbar = () => {
                             <li className="dropdownItem">Advisory Board</li>
                         </ul>
                     </li>
-                    <li className="menuItems dropdown" onClick={() => setResearchMenu(!researchMenu)}>Research {<FaAngleDown />}
+                    <li className="menuItems dropdown" onClick={() => setResearchMenu(!researchMenu)}>Research {researchMenu ? <FaAngleDown className='iconStyle' />: <FaAngleUp className='iconStyle' />}
                         <ul className={researchMenu ? `dropdownMenu hideMenu`: `dropdownMenu`}>
                             <li className="dropdownItem">Ongoing projects</li>
                             <li className="dropdownItem">Publications</li>
@@ -54,8 +54,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="otherLogos">
-                <img src={oau} alt="" />
-                <img src={eee} alt="" />
+                <div className="secondLogo mobileLogoView">
+                    <img src={oau} alt="" />
+                    <img src={eee} alt="" />
+                </div>
                 <p>{`Dept. of Electronic & Electrical Engineering Obafemi Awolowo University, Ile-Ife`}</p>
             </div>
             

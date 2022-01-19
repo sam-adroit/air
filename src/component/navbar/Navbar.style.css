@@ -1,3 +1,6 @@
+.nav {
+    margin-top: 1em;
+}
 .topNav{
     display: flex;
     position: relative;
@@ -20,20 +23,36 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color: azure;
+    background-color: #fff;
     top: 100%;
     z-index: 1;
+    box-shadow: 2px 2px 2px #eee;
 }
 
 .menuItems{
     display: block;
     padding: .4em 1em;
+    
+}
+
+.menuItems:not(:last-child){
     border-bottom: 1px solid rgb(124, 124, 129);
 }
 
 .displayMenu{
     display: block;
     
+}
+
+.dropdown{
+    position: relative;
+}
+
+.iconStyle{
+    position: absolute;
+    font-size: 0.9em;
+    font-weight: 100;
+    right: 5%;
 }
 
 .hideMenu{
@@ -46,3 +65,29 @@
     list-style: none;
 }
 
+.dropdownItem:not(:last-child){
+    border-bottom: 1px solid rgb(124, 124, 129);
+}
+
+.dropdownItem{
+    padding: 0.3em 1em;
+}
+
+.secondLogo{
+    display: flex;
+    margin: 1em auto;
+    justify-content: center;
+
+}
+
+.secondLogo img{
+    width: 40px;
+    padding: 0.1em;
+    
+}
+
+.otherLogos p{
+    width: 45ch;
+    line-height: 1;
+    letter-spacing: 0px;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
 import Logo from '../../assets/flogo.png';
-import {FaPhoneVolume, FaEnvelopeOpenText} from 'react-icons/fa'
+import {FaPhoneVolume, FaEnvelopeOpenText, FaFacebook, FaTwitter, FaLinkedin} from 'react-icons/fa';
+import './footer.style.css';
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer container'>
             <div className="footervision">
-                <img src={Logo} alt="" />
+                <img src={Logo} alt="Air logo" />
                 <p>The vision for this research lab was borne out of the desire to formally bring together, graduate students at OAU Ile-Ife and Nigerian academics diaspora in the era of artificial intelligence and robotics.</p>
             </div>
             <div className="footerContact">
@@ -20,6 +21,7 @@ const Footer = () => {
                 <p>{<FaEnvelopeOpenText />}philip.ogunbona@gmail.com</p>
             </div>
             <div className="footerLinks">
+                <h2>LINKS</h2>
                 <ul>
                     <li>Research Programs</li>
                     <li>Ongoing Project</li>
@@ -27,7 +29,12 @@ const Footer = () => {
                     <li>News</li>
                 </ul>
             </div>
-            <div className="socialMedia"></div>
+            <div className="socialMedia">
+                <h2>SOCIAL MEDIA</h2>
+                <FaFacebook />
+                <FaTwitter />
+                <FaLinkedin />
+            </div>
             <hr />
             <div className="footnote">
                 <p>© 2022  APPLIEDAIR </p>
