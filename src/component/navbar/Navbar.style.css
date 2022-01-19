@@ -1,16 +1,48 @@
-.menu{
+.topNav{
+    display: flex;
     position: relative;
+    justify-content: space-between;
+    
 }
+
+.menu{
+    align-self: center;
+}
+
+.iconSize{
+    font-size: 1.5em;
+}
+
 .menuList{
     display: none;
     width: 100%;
     position: absolute;
     margin: 0;
+    padding: 0;
     list-style: none;
     background-color: azure;
+    top: 100%;
     z-index: 1;
+}
+
+.menuItems{
+    display: block;
+    padding: .4em 1em;
+    border-bottom: 1px solid rgb(124, 124, 129);
 }
 
 .displayMenu{
     display: block;
+    
 }
+
+.hideMenu{
+    display: none;
+}
+
+.dropdownMenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+

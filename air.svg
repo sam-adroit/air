@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="-477.07087"
+       y="212.47694"
+       width="6.0134983"
+       height="52.116985"
+       id="rect8283" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#800000;stroke-width:0.149632"
+       id="rect97"
+       width="42.272907"
+       height="17.655006"
+       x="13.963791"
+       y="52.841904" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.1111px;line-height:1.15;font-family:sans-serif;letter-spacing:-0.109915px;word-spacing:-0.0488513px;white-space:pre;inline-size:60.4607;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-170.77499"
+       y="38.716072"
+       id="text981"
+       transform="matrix(0.91497139,0,0,1.1405287,172.04456,22.527283)"><tspan
+         x="-170.77499"
+         y="38.716072"
+         id="tspan118254"><tspan
+           style="font-family:'Gill Sans Ultra Bold';-inkscape-font-specification:'Gill Sans Ultra Bold, ';fill:#ffffff"
+           id="tspan118246">A</tspan><tspan
+           style="font-size:6.35px;font-family:'Gill Sans Ultra Bold';-inkscape-font-specification:'Gill Sans Ultra Bold, ';baseline-shift:super;fill:#ffffff"
+           id="tspan118248">2</tspan><tspan
+           style="font-family:'Gill Sans Ultra Bold';-inkscape-font-specification:'Gill Sans Ultra Bold, ';fill:#ffffff"
+           id="tspan118250">IR</tspan><tspan
+           style="font-size:6.35px;font-family:'Gill Sans Ultra Bold';-inkscape-font-specification:'Gill Sans Ultra Bold, ';baseline-shift:super;fill:#ffffff"
+           id="tspan118252">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text8281"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect8283)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.73728px;line-height:0.95;font-family:sans-serif;letter-spacing:-0.00941224px;word-spacing:-0.0423553px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.161192"
+       x="72.782326"
+       y="48.624737"
+       id="text55971"
+       transform="scale(0.79302633,1.2609922)"><tspan
+         id="tspan55969"
+         style="font-weight:bold;font-size:7.73728px;fill:#800000;stroke-width:0.161192"
+         x="72.782326"
+         y="48.624737"
+         dx="-0.047432184"
+         dy="-0.029645117">Applied Artificial Intelligence &amp;</tspan><tspan
+         style="font-weight:bold;font-size:7.73728px;fill:#800000;stroke-width:0.161192"
+         x="72.782326"
+         y="55.975147"
+         id="tspan55973">Robotics Research Lab</tspan></text>
+  </g>
+</svg>

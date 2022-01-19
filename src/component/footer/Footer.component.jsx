@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Logo from '../../assets/flogo.png';
 import {FaPhoneVolume, FaEnvelopeOpenText} from 'react-icons/fa'
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className="footervision">
-                <img src="" alt="" />
+                <img src={Logo} alt="" />
                 <p>The vision for this research lab was borne out of the desire to formally bring together, graduate students at OAU Ile-Ife and Nigerian academics diaspora in the era of artificial intelligence and robotics.</p>
             </div>
             <div className="footerContact">
